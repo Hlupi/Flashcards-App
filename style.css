@@ -1,9 +1,13 @@
+html {
+	height: 100%;
+}
+
 body {
   font-family: Source Sans Pro;
-  background: #E5EDF4;
-
-
-
+  background: #d7e7ed;
+  background: -moz-linear-gradient(top, #d7e7ed 0%, #8db5c5 100%);
+  background: -webkit-linear-gradient(top, #d7e7ed 0%,#8db5c5 100%);
+  background: linear-gradient(to bottom, #d7e7ed 0%,#8db5c5 100%);
 }
 
 .container {
@@ -16,10 +20,14 @@ body {
 
 h1 {
   color: #1E2D3D;
+  letter-spacing: 0.4rem;
+  word-spacing: 0.8rem;
+  text-shadow: 3px 1px 2px #9EBCDA;
+  text-align: center;
 }
 
 .theCard {
-  background: #FFFFFF;
+  background: #F6FCFC;
   width: 500px;
   height: 300px;
   margin: 0 auto;
@@ -28,12 +36,38 @@ h1 {
   line-height: 300px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #E2E6E8;
+  font-weight: 600;
 }
 
 #nextCard {
 margin-top: 50px;
+width: 100px;
+height: 50px;
+border-radius: 5px;
+background-color: #F6FCFC;
+font-weight: 600;
+letter-spacing: 0.05rem;
+
 }
 
 #addForm {
   margin-top: 50px;
+}
+
+#inputName {
+	width: 150px;
+	height: 40px;
+
+}
+
+#inputExplanation {
+	width: 150px;
+	height: 40px;
+}
+
+#addButton {
+	width: 75px;
+	height: 47.5px;
+	border-radius: 5px;
+	font-weight: 600;
 }

@@ -6,7 +6,9 @@ var items = [
   {name: "if statement",
   explanation: "executes a statement if a specified condition is truthy"},
   {name: "function",
-  explanation: "a set of statements that performs a task or calculates a value"}
+  explanation: "a set of statements that performs a task or calculates a value"},
+  {name: "HTML",
+  explanation: "descriptive language that specifies webpage structure"}
 ];
 
 // display a card in the div id  = 'card'
