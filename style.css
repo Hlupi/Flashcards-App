@@ -1,0 +1,39 @@
+body {
+  font-family: Source Sans Pro;
+  background: #E5EDF4;
+
+
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  color: #1E2D3D;
+}
+
+.theCard {
+  background: #FFFFFF;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #E2E6E8;
+}
+
+#nextCard {
+margin-top: 50px;
+}
+
+#addForm {
+  margin-top: 50px;
+}
